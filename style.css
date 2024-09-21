@@ -164,4 +164,10 @@ strong {
 
 /*CSS code for the Body/Information Ends*/
 
+/*Assessed Fees*/
 
+.half-width {
+    width: 50%;
+    margin-left: 0; 
+    margin-right: auto; 
+}
