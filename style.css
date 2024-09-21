@@ -40,7 +40,7 @@ body {
     font-weight: bold;
     letter-spacing: 5px; 
     margin-top: 5px; 
-    margin-bottom: 10px; 
+    margin-bottom: 10px; /* Reduce space below */
     margin-left: 180px; 
     margin-right: 20px;
 }
@@ -49,7 +49,7 @@ body {
     text-align: center; 
     font-weight: normal; 
     padding: 0; 
-    margin-bottom: 10px; 
+    margin-bottom: 10px; /* Reduce space below */
 }
 
 .registration-no {
@@ -162,12 +162,37 @@ strong {
     padding: 0 10px; 
 }
 
+
 /*CSS code for the Body/Information Ends*/
 
-/*Assessed Fees*/
 
 .half-width {
-    width: 50%;
+    width: 50%; 
     margin-left: 0; 
     margin-right: auto; 
 }
+
+/* CSS code for the Rules on Refund*/
+/*Here we're just adjusting it to the right side making sure it doesnt affect the others elements*/
+.fees-and-rules {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin-top: 20px;
+}
+
+.refund-rules {
+    width: 40%;
+    font-size: 12px; 
+    padding-left: 20px;
+}
+
+.refund-rules h5 {
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+.refund-rules ol {
+    padding-left: 20px;
+}
+
