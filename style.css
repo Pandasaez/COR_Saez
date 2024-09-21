@@ -118,9 +118,9 @@ th {
 .info-row {
     display: flex;
     justify-content: flex-start; 
-    gap: px;
+    gap: 1px;
     margin-bottom: 1px;
-    font-size: px; 
+    font-size: 11px; 
     align-items: center; 
     white-space: nowrap;
 }
