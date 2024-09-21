@@ -196,3 +196,7 @@ strong {
     padding-left: 20px;
 }
 
+.center {
+    text-align: center;
+    margin: 0 auto
+}
