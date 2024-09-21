@@ -1,3 +1,5 @@
+/*CSS code for the Title*/
+/*Fonts, Containers, Header, PSU Logo, Titles, COR Text, Regristration Num/Color,*/
 body {
     font-family: Arial, sans-serif, impact;
     margin: 0;
@@ -38,21 +40,20 @@ body {
     font-weight: bold;
     letter-spacing: 5px; 
     margin-top: 5px; 
-    margin-bottom: 750px; 
+    margin-bottom: 10px; /* Reduce space below */
     margin-left: 180px; 
     margin-right: 20px;
 }
 
 .registration-no {
     text-align: center; 
-    margin-top: -725px; 
-    margin-bottom: 800px; 
     font-weight: normal; 
     padding: 0; 
+    margin-bottom: 10px; /* Reduce space below */
 }
 
 .registration-no {
-    margin-left: 30px;
+    margin-left: 2px;
     margin-right: auto; 
     width: fit-content; 
 }
@@ -61,3 +62,105 @@ body {
     font-weight: bold;
     color: rgb(201, 25, 63);
 }
+
+/*CSS code for the Title Ends*/
+
+
+
+/*CSS code for the Body/Information Starts*/
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px; 
+    text-align: left; 
+    font-size: 12px; 
+}
+
+
+th {
+    text-align: center; 
+    background-color: #add8e6; 
+    color: #000; 
+}
+
+
+.header {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.logo {
+    margin-right: 20px; 
+}
+
+.flex-container {
+    display: flex; 
+    justify-content: space-around; 
+    padding: 10px 0; 
+}
+
+.subject-info {
+    background-color: #add8e6; 
+    color: #000; 
+    text-align: center; 
+    font-weight: bold; 
+}
+
+.info-row {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 80px; 
+    margin-bottom: 4px;
+    font-size: 11px; 
+    align-items: flex-start; 
+}
+
+.info-row span {
+    flex-basis: 30%; 
+    white-space: normal; 
+    word-wrap: break-word;
+}
+
+strong {
+    font-weight: bold; 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
+.unit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.unit-words {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    margin-top: 1px;
+    font-size: 10px;
+}
+
+.unit-words span {
+    flex: 1; 
+    text-align: center;
+    padding: 0 10px; 
+}
+
+
+/*CSS code for the Body/Information Ends*/
+
+
