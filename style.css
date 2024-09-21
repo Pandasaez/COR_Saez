@@ -1,27 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif, impact;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
 .container {
-    width: 80%;
+    width: 40%;
     margin: 20px auto;
     background-color: white;
-    padding: 1px;
+    padding: 20px;
     border: 1px solid #ddd;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 500px;
 }
 
-.header .logo {
+.logo {
     width: 75px;
     height: 75px;
     margin-right: 20px;
@@ -29,13 +28,36 @@ body {
 
 .title {
     text-align: center;
-    line-height: 0px;
 }
 
-.title p, .title h1, .title h2 {
+.title h6, .title h3 {
     margin: 5px 0;
 }
 
-.spacing {
+.COR {
+    font-weight: bold;
     letter-spacing: 5px; 
+    margin-top: 5px; 
+    margin-bottom: 750px; 
+    margin-left: 180px; 
+    margin-right: 20px;
+}
+
+.registration-no {
+    text-align: center; 
+    margin-top: -725px; 
+    margin-bottom: 800px; 
+    font-weight: normal; 
+    padding: 0; 
+}
+
+.registration-no {
+    margin-left: 30px;
+    margin-right: auto; 
+    width: fit-content; 
+}
+
+.number {
+    font-weight: bold;
+    color: rgb(201, 25, 63);
 }
